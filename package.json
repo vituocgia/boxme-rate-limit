@@ -1,0 +1,34 @@
+{
+  "name": "boxme-rate-limit",
+  "version": "0.1.4",
+  "description": "Express/Restify middleware for rate limiting",
+  "main": "lib/middleware.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vituocgia/boxme-rate-limit.git"
+  },
+  "keywords": [
+    "restify",
+    "middleware",
+    "rate-limit",
+    "throttling"
+  ],
+  "author": "Swaven",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vituocgia/boxme-rate-limit/issues"
+  },
+  "homepage": "https://github.com/vituocgia/boxme-rate-limit#readme",
+  "devDependencies": {
+    "chalk": "^2.0.1",
+    "restify": "^5.0.1",
+    "swn-logger": "^1.0.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "redis": "^2.7.1"
+  }
+}
