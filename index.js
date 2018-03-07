@@ -37,8 +37,8 @@ class RateLimit {
 
         if(current >= config.max) {
           // Limit exceeded
-          console.info('User (ip:${ip}) accesses ${req.path} over access frequency limit')
-          next('Maximum access frequency limit')
+          console.info('User (ip: ${ip}) accesses ${req.path} over access frequency limit')
+          next('Maximum access frequency limit has reached')
           return
         }
 
